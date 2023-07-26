@@ -58,18 +58,6 @@ strapi start
 - Set up Strapi. Follow the on-screen instructions to complete the setup process. You'll be prompted to create an administrator account and configure your database.
 - Congratulations! You have successfully installed Strapi and set up a new Strapi project.
 
-## Usage
-Follow these steps to start the React.js App and Strapi App separately:
-1. Go to the folders where you installed the React.js App and Strapi App in separate terminal or command prompt windows.
-2. In each terminal, type `npm start` to boot up the React.js and Strapi Apps.
-3. Wait until both applications have finished booting up. They should automatically open in your web browser. If they don't, manually enter the provided link from the terminal into your browser's URL bar to open the applications.
-4. After successful boot-up, you'll be redirected to the LOGIN page.
-5. If you don't have an account, click the REGISTER button below the login form.
-6. Once you've completed the registration process, you will be redirected back to the LOGIN page.
-7. Use your registered email and password to log in. If successful, you'll be redirected to the HOME page.
-8. When you are done using the applications, remember to LOGOUT.
-
-By following these steps, you can effectively start and navigate the React.js and Strapi Apps, perform registration and login actions, and access the HOME page before logging out.
 # Movie API
 The Movie API is a service that serves as a movie discovery and search application. It fetches movie data from the "The Movie Database (TMDB)" API based on different categories and names of the movie you entered in the search bar. 
 ### Movie API by category
@@ -221,3 +209,15 @@ const Card=(movie)=>{
 }
 export default Card;
 ```
+## Usage
+Follow these steps to start the React.js App and Strapi App separately:
+1. Go to the folders where you installed the React.js App and Strapi App in separate terminal or command prompt windows.
+2. In each terminal, type `npm start` to boot up the React.js and Strapi Apps.
+3. Wait until both applications have finished booting up. They should automatically open in your web browser. If they don't, manually enter the provided link from the terminal into your browser's URL bar to open the applications.
+4. After successful boot-up, you'll be redirected to the LOGIN page.
+5. If you don't have an account, click the REGISTER button below the login form.
+6. Once you've completed the registration process, you will be redirected back to the LOGIN page.
+7. Use your registered email and password to log in. If successful, you'll be redirected to the HOME page.
+8. When you are done using the applications, remember to LOGOUT.
+
+By following these steps, you can effectively start and navigate the React.js and Strapi Apps, perform registration and login actions, and access the HOME page before logging out.
