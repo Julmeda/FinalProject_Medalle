@@ -1,5 +1,5 @@
 # FinalProject_Medalle
-## System Integration Task : The Implementation of Movie API
+## System Integration Task : The Implementation of Book API
 This project aims to fully implement a functioning Movie API that generates Movie lists based on category and a search button that will generate a list of the desired movie titles.
 ## Prerequisites
 To begin working on this project, you'll require the installation of the following components on your computer:
@@ -58,18 +58,10 @@ strapi start
 - Set up Strapi. Follow the on-screen instructions to complete the setup process. You'll be prompted to create an administrator account and configure your database.
 - Congratulations! You have successfully installed Strapi and set up a new Strapi project.
 
-# Movie API
+# Book API
 The Movie API is a service that serves as a movie discovery and search application. It fetches movie data from the "The Movie Database (TMDB)" API based on different categories and names of the movie you entered in the search bar. 
-### Movie API by category
-*To fetch a movie based on different categories, you can make a GET request to the following endpoint:*
-- (GET https://api.themoviedb.org/3/discover/movie) <br>
-
-It will return a JSON response containing a list of movies that match the criteria you specified in the query. <br>
-
-*example request:*
-- (GET https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=YOUR_API_KEY)
   
-### Movie API by searching movie name
+### Movie API by searching book title
 *To search for a movie name, you can make a GET request to the following endpoint:*
 - (GET https://api.themoviedb.org/3/search/movie)
 
