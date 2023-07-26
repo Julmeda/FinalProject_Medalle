@@ -90,7 +90,7 @@ It will respond with a JSON object containing a list of movies that match the se
 *example request:*
 - (GET https://api.themoviedb.org/3/search/movie?query=movie_name&api_key=YOUR_API_KEY)
 
-# Updated Implementation of Cat API in my React App Homepage
+# Updated Implementation of Movie API in my React App Homepage
 ```
 import React, { useEffect, useState } from "react";
 import CustomNav from "../CustomNav";
